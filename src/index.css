@@ -1,0 +1,61 @@
+/* App.css */
+
+body {
+  background-color: hsl(207, 11%, 19%);
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.google-container button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.google-container textarea {
+  resize: none;
+  font-size: 1rem;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  width: 100%;
+}
+
+textarea::placeholder {
+  font-style: italic;
+  color: #6c757d;
+}
+
+.input-textarea {
+  margin-bottom: 20px;
+}
+
+.output-textarea {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.google-container button {
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;;
+  width: 300px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+  cursor: pointer;
+}
